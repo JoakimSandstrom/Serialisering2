@@ -14,9 +14,11 @@ bool select = true;
 
 while(select)
 {
+    Console.Clear();
     select = false;
     Console.WriteLine("You find a charm on the floor. Do you pick it up?\ny/n");
     string choice = Console.ReadLine();
+    Console.WriteLine("");
     switch(choice)
     {
         case "y":
